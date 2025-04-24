@@ -3,8 +3,8 @@
   "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main",
   "DeployToDVPMS": {
     "EnvironmentName": "Sandbox_NTN10",
-    "continuousDeployment": true,
-  }
+    "continuousDeployment": true
+  },
   "DeployToPROD": {
     "EnvironmentName": "Production",
     "continuousDeployment": false
