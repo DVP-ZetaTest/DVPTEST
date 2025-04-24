@@ -8,5 +8,7 @@
   "DeployToPROD": {
     "EnvironmentName": "Production",
     "continuousDeployment": false
-  }
+  },
+  "useCompilerFolder": false,
+  "doNotPublishApps": false
 }
