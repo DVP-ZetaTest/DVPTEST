@@ -9,6 +9,7 @@
     "EnvironmentName": "Production",
     "continuousDeployment": false
   },
+"DeployReferenceDocumentationSchedule": "0 4 * * *",	
   "workflows": [ "Current" ],
         "settings": {
             "workflowSchedule": {
