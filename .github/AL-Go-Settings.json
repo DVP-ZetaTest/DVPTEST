@@ -9,23 +9,8 @@
     "EnvironmentName": "Production",
     "continuousDeployment": false
   },
-"DeployReferenceDocumentationSchedule": "0 4 * * *",	
-  "workflows": [ "Current" ],
-        "settings": {
-            "workflowSchedule": {
-                "cron": "0 2 * * *"
-            }
-        },
-		"workflows": [ "NextMinor" ],
-        "settings": {
-            "workflowSchedule": {
-                "cron": "0 2 * * 6"
-            }
-        },
-		"workflows": [ "NextMajor" ],
-        "settings": {
-            "workflowSchedule": {
-                "cron": "0 2 * * 0"
-            }
-        }
+  "DeployReferenceDocumentationSchedule": "0 4 * * *",	
+  "CurrentSchedule": "0 2 * * *",
+  "NextMinorSchedule": "0 2 * * 6",
+  "NextMajorSchedule": "0 2 * * 0"
 }
